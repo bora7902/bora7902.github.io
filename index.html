@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{list-style-type: none;}
+        #menu1 li{
+            margin-top:5px;
+            display: inline;
+        }
+
+        #libox{margin-left:70px;}
+
+        #menu {
+            background-color: #cbcbcb;
+            width: 500px;
+            height:30px;
+            padding-top:6px;
+            text-align:center;
+            margin-left:140px;
+            border-radius:10px;
+        }
+
+        a:link{color:#62430a;
+                text-shadow: 3px 3px 3px #aaaaaa;}
+        a:visited{color:#ffffff;}
+        a:hover{color:#f862ba;}
+        a:active{color:#ffdaa7;}
+
+        #visit_info{
+            width:750px;
+            padding-bottom:5px;
+            border-bottom:solid 1px #cccccc;
+        }
+
+        .item {display:inline-block;
+        text-align: center;}
+
+        .item h3{ 
+            font-weight: bold;
+            width:150px;
+            border-bottom:solid 2px #dc912f;
+            margin-left:45px;}
+
+        .item img{border-radius:15px 20px 30px 35px;
+                    margin:0px 20px;
+                box-shadow: 3px 3px 3px #7e521f;}
+        
+
+        #comment{
+            width:700px;
+            border:solid 1px #ffdaa7;
+            background-color: #ffe9d4;
+            margin:20px;
+            padding:10px;
+            line-height:1.5;
+        }
+
+
+        #li2 li {
+            list-style-image: url("img/heart3.jpg");
+        }
+
+        .h3title {display:inline;}
+    </style>
+
+</head>
+<body>
+        <div id="menu">
+            <a href="book_banner1.html">북배너 연습</a> |
+            <a href="boxes.html">inline-block 연습</a> |
+            <a href="inline_block.html">인라인요소 및 블록요소 연습</a>
+        </div>
+
+
+    <br>
+    <div id="libox">
+    <ul id="menu1">
+        <li>화성행궁 소개 |</li>
+        <li>방문안내 |</li>
+        <li>관람안내 |</li>
+        <li>개인/단체 체험 |</li>
+        <li>고객센터 |</li>
+        <li>공지사항 |</li>
+    </ul>
+    </div>
+    
+    <img src="img/main_image.jpg">
+
+
+    <h1 id="visit_info">+ 화성행궁</h1>
+
+    <h2>1. 화성행궁 소개</h2>
+        <p id="comment">행궁은 <b>정조가 현륭원에 행차할 때 임시 거처로 사용하던 곳</b>으로
+            그 어느 행궁보다 크고 웅장하였으며 활용도도 높아 경복궁의 ‘부궁’이라는 말까지 생겨난 곳입니다. 
+            정조 18~20년에 화성을 축성하고 팔달산 동쪽에 행궁을 건립했는데 평상시에는 유수부(지금의 시청) 관청으로 사용되던 곳입니다.
+            화성행궁의 여러 전통문화체험은 우리 문화재를 입체적으로 접근할 수 있도록 도와줍니다.
+            </p>
+
+     <h2>2. 주변 볼거리</h2>
+     
+   
+        <div class="gallery">
+            <div class="item">
+                <img src="img/맛집1.jpg" width="200" height="180">
+                <h3 class="title">더 유로피언</h3>
+                <p class="desc"> 수원외식장소, 와인모임장소로<br> 유명한 화성행궁 <br>피자 맛집입니다. </p>
+            </div>
+            
+            <div class="item">
+                <img src="img/카페1.jpg" width="200" height="180">
+                <h3 class="title">카페 스퀘어드</h3>
+                <p class="desc">망고빙수가 맛있고 화성행궁의 <br>아름다운 풍경을 느낄 수 있는 <br>카페입니다. </p>
+            </div>
+            
+            <div class="item">
+                <img src="img/화성어차.jpg" width="200" height="180">
+                <h3 class="title">화성 어차</h3>
+                <p class="desc">조선시대 왕이 타던 가마와 <br>순종의 자동차를 모티브로 제작된 <br>관광열차입니다.</p>
+            </div>
+        </div>
+
+     <h2>3. 관람시간 및 이용요금</h2>
+     <ul id="li2">
+        <li>관람 시간 : 18:00 - 21:30 (21:00 매표 및 입장 마감)</li>
+        <li>입장료 : 성인 1,500원 / 청소년 및 군인 1,000원 / 어린이 700원</li>
+        <li>화성행궁 주차장 : 최초 30분 300원 / 30분 초과시 10분마다 200원 / 1일 주차요금 7,000원</li>
+     </ul>
+</body>
+</html>
